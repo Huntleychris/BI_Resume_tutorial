@@ -1,4 +1,4 @@
-USE [Resume]
+USE [PowerBIResumeDemo]
 GO
 
 /****** Object:  Table [dbo].[dim_title]    Script Date: 2/1/2018 4:06:21 PM ******/

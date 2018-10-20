@@ -48,7 +48,7 @@ GO
 --Value of Start Date Must be Less than Your End Date 
 
 DECLARE @StartDate DATETIME = '01/01/2006' --Starting value of Date Range
-DECLARE @EndDate DATETIME = '01/01/2019' --End Value of Date Range
+DECLARE @EndDate DATETIME = '01/01/2020' --End Value of Date Range
 
 --Temporary Variables To Hold the Values During Processing of Each Date of Year
 DECLARE
