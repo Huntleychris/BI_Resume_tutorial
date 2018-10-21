@@ -45,15 +45,14 @@ REFERENCES [dbo].[dim_workactivities] ([workactivitiesid])
 GO
 
 ALTER TABLE [dbo].[fact_resume]  WITH CHECK ADD FOREIGN KEY([workbegan])
-REFERENCES [dbo].[dim_date] ([DateKey])
+REFERENCES [dbo].[dimdate] ([DateKey])
 GO
 
 ALTER TABLE [dbo].[fact_resume]  WITH CHECK ADD FOREIGN KEY([workended])
-REFERENCES [dbo].[dim_date] ([DateKey])
+REFERENCES [dbo].[dimdate] ([DateKey])
 GO
 
 ALTER TABLE [dbo].[fact_resume]  WITH CHECK ADD FOREIGN KEY([workskillid])
 REFERENCES [dbo].[dim_skills] ([workskillid])
 GO
-
 
